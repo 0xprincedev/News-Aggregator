@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+	@apply bg-primary-400 h-screen overflow-y-auto;
+}
+
+.container {
+	@apply mx-auto w-full max-w-5xl px-5;
+}
+
+input,
+select,
+textarea {
+	@apply bg-transparent outline-none;
+}
